@@ -1,0 +1,19 @@
+.homePage{
+    padding: 10px 100px;
+}
+.homePage h3{
+    text-align: center;
+    border-bottom: 1px solid hotpink;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.homePage img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width:768px){
+    .homePage{
+        padding: 10px 60px;
+    }
+}

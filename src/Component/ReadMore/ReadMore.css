@@ -1,0 +1,22 @@
+.readMore{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 100px;
+}
+.readMore img{
+    width: 100%;
+}
+.readMore h4{
+    text-align: center;
+    color: brown;
+    border-bottom: 1px solid red;
+   display: block;
+   margin-top: 30px;
+}
+@media only screen and (max-width:768px) {
+    .readMore{
+        width: 100%;
+        padding: 0px 30px;
+    }
+}

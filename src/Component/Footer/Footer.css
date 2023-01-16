@@ -1,0 +1,21 @@
+.footer{
+    padding: 20px 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    color: white;
+}
+.footer small span{
+    color: crimson;
+    font-weight: bolder;
+}
+@media only screen and (max-width:768px) {
+     .footer{
+        padding: 20px 60px;
+        flex-direction: column;
+     }
+}
